@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12ab8d1d-7c52-4945-ba74-e58de3fb691f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +30,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -51,11 +58,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RunManager">
     <configuration name="SayHelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -89,7 +100,8 @@
       <option name="presentableId" value="Default" />
       <updated>1582100310393</updated>
       <workItem from="1582100314798" duration="110000" />
-      <workItem from="1582100438187" duration="778000" />
+      <workItem from="1582100438187" duration="2591000" />
+      <workItem from="1582103061222" duration="1336000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交，测试">
       <created>1582100473674</created>
@@ -105,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582100975504</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第一个类，sayHello编写">
+      <created>1582101285382</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582101285382</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,28 +170,46 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第一次提交，测试" />
     <MESSAGE value="第一个类，sayHello编写" />
     <option name="LAST_COMMIT_MESSAGE" value="第一个类，sayHello编写" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1582100973814">
+    <state x="829" y="262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582101539049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582100973814" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1582101098547">
+    <state x="829" y="262" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1582101539049" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1582101283745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582101098547" />
-    <state x="202" y="42" key="Maven.ArtifactSearchDialog" timestamp="1582100912301">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582101283745" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1582102804764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="202" y="42" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1582100912301" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1582101215906">
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582102804764" />
+    <state x="217" y="13" key="Maven.ArtifactSearchDialog" timestamp="1582103550058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582101215906" />
+    <state x="217" y="13" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1582103550058" />
+    <state x="-168" y="0" key="SettingsEditor" timestamp="1582102954634">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="-168" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582102954634" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1582101348682">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582101348682" />
+    <state x="477" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582101325609">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="477" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1582101325609" />
   </component>
 </project>
